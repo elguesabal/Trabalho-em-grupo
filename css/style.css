@@ -1,21 +1,14 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    font-family: "Oswald", sans-serif;
-    background-color: rgb(46, 42, 42);
 
-}
+/*aki comeca o cabcalho*/
 .cabecalho{
     background-color: #333;
-    border-bottom: solid 5px #4faddb;
+    border-bottom: solid 5px #ffa600;
     height: 80px;
     box-sizing: content-box;
 }
 .logo{
     display: inline-block;
-    height: 80px;
+    height: 10px;
     padding: 15px;
 }
 .log img{
@@ -58,9 +51,7 @@ body{
 
 menu a:hover,
 .menu a.selected{
-    background-color: #4faddb;
-    color:black;
-
+    background-color: #ffa600;
 }
 .botao{
     border-radius: 30px;
@@ -82,3 +73,73 @@ menu a:hover,
 
     }
 }
+/*ate aki fica o cabeçalho*/
+
+
+
+/*estilo texto em geral comeca aki*/
+h1{
+    margin: 5%;
+}
+h2{
+    margin: 5%;
+}
+h3{
+    width: ;
+}
+h3.colaboradores{
+    font-size: 25pt;
+    margin: 100px 200px;
+}
+p{
+    color: white;
+    margin: 10%;
+}
+p.missao{
+
+}
+p.colaboradores{
+    margin:  0px 30px;
+}
+/*estilo texto em geral termina aki*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(88, 53, 42);
+}
+section#corpo{
+    display: block;
+    width: 60%;
+    float: left;
+    border-right: 1px solid #606060;
+}
+div{
+    display: block;
+    width: 40%;
+    float: right;
+}
+
+/* tabela comeca aki */
+table#tabela
+    {border: 1px solid #20100b;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;}
+
+table#tabela td
+    {border: 1px solid #20100b;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;}
+
+table#tabela td.ce
+    {color: #ffffff;
+    background-color: #6c3217;}
+
+table#tabela td.cd
+    {background-color: #945c31;}
+/* tabela termina aki */
