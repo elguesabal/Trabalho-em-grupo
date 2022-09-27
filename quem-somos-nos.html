@@ -2,12 +2,62 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="style" href="css/style.css">
-    <title>     </title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Choco</title>
 </head>
 <body>
 
-    <!--aki falamos sobre nossa empresa e aproveitamos pra colocar os nomes dos membros dos grupos-->
+<header class="cabecalho">
+    <figure class="logo"> <!--troquei div por figure-->
+        <a href="#inicio">
+            <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" height="40px" and width="200px" />
+        </a>
+    </figure> <!--troquei div por figure-->
+    <button class="menu-toggle">
+        <i class="fa fa-lg fa-bars"></i>
+    </button>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#inicio" class="selected">Início</a>
+            </li>
+            <li>
+                <a href="#cursos">Cursos</a>
+            </li>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <aside class="autenticacao">
+        <a href="#login">Login</a>
+        <a href="#registar" class="botao destaque">Registrar</a>
+    </aside>
+</header>
+
+
+<section id="corpo"> <!--tudo q esta entre section id="copor" vai ficar do lado esquerdo-->
+<h1>Sobre a empresa</h1>
+<h2>Nossa missão</h2>
+
+<p class="missao">Temos como missao transforma os dias das pessoas melhores com a nossa culinaria, alem de considerarmos a colunaria uma arte, transmitindo afeto e inovar o setor de chocolate. A empresa esta a um ano criando amor em forma de chocolate, e esta em expansão, um do maior motivo foi a pandemia, antes a empresa buscava lucro através do comercio local, mas com a expansão do Ifood, e aplicativos de entrega, logo a empresa mudou para delivery, entretanto continua com as loja física. Atualmente, o maior percentual de ganho e feito através das vendas online, por isso o “Choco do Dudu” decidiu expandir virtualmente, através de um site próprio para os clientes pedirem sem haver taxas das empresas que fornecem delivery, como ifood, uber eats, etc...</p>
+</section>
+
+
+<h3 class="colaboradores">Colaboradores:</h3>
+
+<table id="tabela">
+    
+    <tr><td class="ce">Bruno</td><td class="cd">funcao no grupo</td></tr>
+    <tr><td class="ce">Davi</td><td class="cd">funcao no grupo</td></tr>
+    <tr><td class="ce">José</td><td class="cd">Gestor de gente e engajamento</td></tr>
+    <tr><td class="ce">Maiara</td><td class="cd">funcao no grupo</td></tr>
+    <tr><td class="ce">Otávio</td><td class="cd">funcao no grupo</td></tr>
+    </table>
 
 </body>
 </html>
+
