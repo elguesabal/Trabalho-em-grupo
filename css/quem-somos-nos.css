@@ -1,61 +1,56 @@
 
-/*aki comeca o cabcalho*/
+/*Aqui começa o cabeçalho*/
 .cabecalho{
     background-color: #333;
     border-bottom: solid 5px #84d627;
     height: 80px;
     box-sizing: content-box;
 }
+/* Estilo da logo, como se comportara com os outros boxes, mais a margem */
 h1.logo{
     color: white;
     display: inline-block;
     margin: 20px 50px;
 }
+/* estilo da palavra spell */
 div.spell{
+    display: inline-block; /*Medida necessaria para nao criar confusao com outros boxes*/
     color: black;
     background-color: #84d627;
-    border-radius: 3px;
+    width: 70px; /*Largura do quadrado*/
+    height: 40px; /*Altura do quadrado, mas somente aumenta na parte de baixo*/
+    border-radius: 10px; /*Edita o tamanho do box verde em relacao as bordas*/
 
 }
-.menu-toggle{
-    float:right;
-    color:white;
-    background-color: rgb(0, 0, 0);
-    border: solid 1px rgb(0, 0, 0);
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px 20px;
-    margin: 20px 15px;
-}
+/* Estilizacao do menu, e criacao de flex-boxes */
 .menu{
-    display: inline-block;
-    vertical-align: top;
+    display: inline-block; /**/
+    vertical-align: top; /*Alinhamento para ficar no tpo*/
     height: 80px;
 }
 .menu li{
-    display:inline-block;
+    display:inline-block; /*usado para manter o espaçamento*/
 }
-.cabecalho a {
+/*Edite do cabecalho, foi necessario o none para o texto ficar comum, mas pode alterar a fonte*/
+.cabecalho a { 
     text-decoration: none;
-    color: white;
+    color: rgb(255, 242, 242);
     font-size: 1.3em;
     padding: 15px;
 }
+/* toda classe menu, que tive o elemento a, tera a seguinte configuracao, para adicionar maior espaco às opções do cabecalho*/
 .menu a{
-    padding: 15px;
+     padding: 25px; /*aumentando aqui, vai aumentar o tamanho da caixa verde */
 
 }
-
+/*Localização, tamanho do box*/
 .autenticacao {
     float:right;
     height: 80px;
     padding: 25px;
 }
 
-menu a:hover,
-.menu a.selected{
-    background-color: #84d627;
-}
+/* Configuracao do botao de registrar */
 .botao{
     border-radius: 30px;
     padding: 10px 25px;
@@ -65,20 +60,10 @@ menu a:hover,
     background-color: red;
     color: white;
 }
-@media(min-width:679px) {
-.menu-toggle {
-    display: none;
-}
-}
-@media(max-width: 680px){
-    .menu{
-        display: none;
+/*Aqui  termina as config do cabeçalho*/
 
-    }
-}
-/*ate aki fica o cabeçalho*/
-
-img{
+/*Configuracao do chocolate escorrendo na borda*/
+.chocolateEscorre{
     width: 50%;
     height: 50%;
     margin-left: 690px;
@@ -95,9 +80,9 @@ h2{
     font-size: 15pt;
     margin: 30px 0px 0px 100px;
 }
-h3{
+/* h3{
     width: ;
-}
+} */
 h3.colaboradores{
     font-size: 20pt;
     margin: 100px auto 50px 800px;
@@ -111,9 +96,10 @@ p{
     color: white;
     margin: 10%;
 }
-p.missao{
+/* adicionar estilo, box da parte da nossa missao */
+/* p.missao{
 
-}
+} */
 p.colaboradores{
     margin:  0px 30px;
 }
@@ -122,31 +108,38 @@ p.colaboradores{
 *{
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    font-family: "Oswald", sans-serif;
+/* Adiciona a posicao no corpo , margem 0 colocaria os objetos em seus respectivos lados, por exemplo o cabeçalho deve ficar em cima, sem margem */
+body{ 
+    /* 0 margem para os itens ficarem colados */
+    margin: 0; 
     background-color: rgb(88, 53, 42);
 }
+/*Necessario para o comportamento entre as boxes*/
 section#corpo{
     display: block;
     width: 60%;
     float: left;
     border-right: 1px solid #606060;
 }
+/* Adicionar mais itens que garantem o espaçamento, caso nao precise, deixe desse jeito, o div so decidira a cor do cabeçalho */
 div{
-    display: block;
+    /*Sera necessario inline para manter a imagem dentro do cabecalho, e o block sera para fazer o espaco da logo funcionar*/
+    display: inline-block; 
+    /*Aqui definimos a largura da caixa*/
     width: 40%;
-    float: right;
-}
+ }
 
 /* tabela comeca aki */
 table#tabela{
-    border: 1px solid #20100b;
+    /* borda da tabela, espaco, e a margem */
+    border: 1px solid #20100b; 
+    /* o espaco entre a os elementos para manter a organizacao do site */
     border-spacing: 5px;
     margin-left: 800px;
 }
 
-table#tabela td
+/* box contendo o nome dos colaboradores */
+table#tabela td 
     {border: 1px solid #20100b;
     padding: 10px;
     text-align: center;
@@ -161,4 +154,4 @@ table#tabela td.cd
 /* tabela termina aki */
 
 
-/* #ffa600 cor do pornhub pra mudar a cor do cabecalho caso meu gurpo tope*/
+/* #ffa600 cor do pornhub pra mudar a cor do cabecalho caso meu grupo tope. Aham, sei...😂*/
