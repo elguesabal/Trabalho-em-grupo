@@ -2,17 +2,20 @@
 /*aki comeca o cabcalho*/
 .cabecalho{
     background-color: #333;
-    border-bottom: solid 5px #ffa600;
+    border-bottom: solid 5px #84d627;
     height: 80px;
     box-sizing: content-box;
 }
-.logo{
+h1.logo{
+    color: white;
     display: inline-block;
-    height: 10px;
-    padding: 15px;
+    margin: 20px 50px;
 }
-.log img{
-    height: 100%;
+div.spell{
+    color: black;
+    background-color: #84d627;
+    border-radius: 3px;
+
 }
 .menu-toggle{
     float:right;
@@ -51,7 +54,7 @@
 
 menu a:hover,
 .menu a.selected{
-    background-color: #ffa600;
+    background-color: #84d627;
 }
 .botao{
     border-radius: 30px;
@@ -75,23 +78,36 @@ menu a:hover,
 }
 /*ate aki fica o cabeçalho*/
 
+img{
+    width: 50%;
+    height: 50%;
+    margin-left: 690px;
+    margin-bottom: px;
+}
 
 
 /*estilo texto em geral comeca aki*/
 h1{
-    margin: 5%;
+    font-size: 25pt;
+    margin: 80px 0px 0px 100px;
 }
 h2{
-    margin: 5%;
+    font-size: 15pt;
+    margin: 30px 0px 0px 100px;
 }
 h3{
     width: ;
 }
 h3.colaboradores{
-    font-size: 25pt;
-    margin: 100px 200px;
+    font-size: 20pt;
+    margin: 100px auto 50px 800px;
 }
 p{
+    background-color: #4d2411;
+    padding: 10px;
+    border: 5px solid #160803;
+    box-shadow: 10px 1px 5px 4px;
+    text-align: justify;
     color: white;
     margin: 10%;
 }
@@ -124,11 +140,11 @@ div{
 }
 
 /* tabela comeca aki */
-table#tabela
-    {border: 1px solid #20100b;
-    border-spacing: 0px;
-    margin-left: auto;
-    margin-right: auto;}
+table#tabela{
+    border: 1px solid #20100b;
+    border-spacing: 5px;
+    margin-left: 800px;
+}
 
 table#tabela td
     {border: 1px solid #20100b;
@@ -143,3 +159,6 @@ table#tabela td.ce
 table#tabela td.cd
     {background-color: #945c31;}
 /* tabela termina aki */
+
+
+/* #ffa600 cor do pornhub pra mudar a cor do cabecalho caso meu gurpo tope*/
