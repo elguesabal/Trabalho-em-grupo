@@ -19,6 +19,9 @@ h1.logo{
     border-radius: 3px;
     display: block;
     width: auto;
+    display: block;
+    width: 40%;
+    float: right;
 }
 
 .menu{
@@ -116,12 +119,16 @@ p{
     text-align: justify;
     color: white;
     margin: 10%;
+    text-indent: 20px;
 }
 p.colaboradores{
     margin:  0px 30px;
 }
 /*estilo texto em geral termina aki*/
 
+/* div.bloco-texto{         se eu ativar essa div mesmo sem estilizacao da prblema nao sei pq
+    
+} */
 
 body{
     margin: 0;
@@ -134,11 +141,7 @@ section#corpo{
     float: left;
     border-right: 1px solid #606060;
 }
-div{
-    display: block;
-    width: 40%;
-    float: right;
-}
+
 
 /* tabela comeca aki */
 table#tabela{
@@ -178,7 +181,133 @@ p.rodape
 
 
 
+/*Aqui começa o Formulário*/
 
+
+/*Centralização do meu formulário*/
+.containerForm {
+    /*Só consegui mover assim, não me julgue :(*/
+    position: relative;
+    left: 5.5%;
+    margin-top: 50px;
+    /*Cor de fundo*/
+    background-color: #333333;
+    /*Deixando o contato e o form alinhado*/
+    display: flex;
+    /*Tamanho horizoltal do container*/
+    width: 1200px;
+    /*Tamanho vertical*/
+    height: 500px;
+    /*arredondando a borda*/
+    border-radius: 70px;
+    /*Fonte*/
+    font-family: 'Noto Sans Mono', monospace;
+    /*Sombra lateral braba*/
+    box-shadow: 6px 6px 6px black;
+}
+
+/*Tamanho do meu box esquerdo*/
+.contato {
+    /*Distancia lateral*/
+    margin-left: 2%;
+    /*Largura da box*/
+    width: 600px;
+}
+
+/*Tamanho do meu box direito*/
+.form {
+    /*Distancia lateral*/
+    margin-left: 10%;
+    /*Largura da box*/
+    width: 600px;
+}
+
+/*Tamanho do h1*/
+.containerForm h1{
+    font-size: 35px;
+}
+
+
+
+
+/*Estilização da label*/
+label {
+    /*distancia das minhas labels*/
+    margin-top: 20px;
+    /*Disply para as labels ficarem na vertical*/
+    display: flex;
+}
+
+
+/*Estilizando input e textarea*/
+input,
+textarea {
+    background-color: transparent;
+    /*borda*/
+    border: 2px solid black;
+    /*tirando a borda de cima e da esquerda*/
+    border-top: none;
+    border-left: none;
+    /*Tamanho*/
+    width: 350px;
+    padding: 10px;
+}
+
+/*Cor do placeholder*/
+input::placeholder {
+    /*Tamanho do placeholder*/
+    font-size: 15px;
+    /*Cor*/
+    color: rgb(12, 12, 12);
+}
+
+/*Cor do placeholder*/
+textarea::placeholder {
+    /*Tamanho do placeholder*/
+    font-size: 15px;
+    /*Cor*/
+    color: rgb(12, 12, 12);
+}
+
+/*Cor e tamanho do botão*/
+button {
+    /*Cor da fonte*/
+    color: rgb(155, 154, 154);
+    /*Cor de fundo*/
+    background-color: black;
+    /*Distancia do topo*/
+    margin-top: 10px;
+    /*Tamanho*/
+    height: 30px;
+    width: 60px;
+}
+
+
+/*Tirando sublinhado do link do contato*/
+.contato a {
+    text-decoration: none;
+    color: black;
+}
+
+
+button:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+
+/* Tamanho e localização da imagem*/
+.contato img{
+    position: relative;
+    top: -5%;
+    left: 20%;
+    width: 420px;
+}
+
+.contato address{
+    font-size: 18px;
+}
+
+/*Aqui termina o Formulário*/
 
 
 
