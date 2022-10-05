@@ -1,20 +1,32 @@
+/*Itens da minha function*/
+nome = document.getElementById("nome")
+sobreNome = document.getElementById("sobrenome")
+email = document.getElementById("email")
+mensagem = document.getElementById("mensagem")
+
+
+
+/*Caso o botão seja pressionado quando algum input esteja vazio, vai aparecer um alerta avisando*/
 
 /*Função validar*/
 function validar() {
-    var nome = document.getElementById("nome")
+
     if (nome.value == '') {
         alert("Nome não informado")
     }
-   
-    var sobreNome = document.getElementById("sobrenome")
-    if (sobreNome.value == '') {
+
+    if (sobreNome.value == '') {                    
         alert("Sobrenome não informado")
     }
 
-    var email = document.getElementById("email")
     if (email.value == '') {
         alert("E-mail não informado")
     }
+
+    if (mensagem.value != '') {
+        alert("Mensagem enviada")
+    }
+
 
 }
 
