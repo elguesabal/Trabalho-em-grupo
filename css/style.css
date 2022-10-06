@@ -96,10 +96,15 @@ img#contato {
 
 /*ate termina o cabeçalho*/
 
-img {
-    height: 100%;
-    position: absolute;
-    top: 0px;
+div.bloco {                 /*bloco referente a pagina "quem-somos-nos.html"*/
+    background-color: #4d2411;
+    padding: 10px;
+    border: 5px solid #160803;
+    box-shadow: 10px 1px 5px 4px #84d627;
+    text-align: justify;
+    color: white;
+    margin: 5% 20% 10% 20%;
+    text-indent: 20px;
 }
 
 
@@ -107,13 +112,13 @@ img {
 h1 {
     color: #84d627;
     font-size: 25pt;
-    margin: 1% 0px 0px 12%;
+    margin: 3% 0px 10% 10%;
 }
 
-h2 {
+h2.colaborador {
     color: #84d627;
     font-size: 15pt;
-    margin: 5% 0% 0px 12%;
+    margin: 0% 0px 0% 20%;
 }
 
 h3.colaboradores {
@@ -122,40 +127,17 @@ h3.colaboradores {
     margin: 3% auto 50px 66%;
 }
 
-p {
-    background-color: #4d2411;
-    padding: 10px;
-    border: 5px solid #160803;
-    box-shadow: 10px 1px 5px 4px #84d627;
-    text-align: justify;
-    color: white;
-    margin: 10%;
-    text-indent: 20px;
-}
+/*p {            nao tem nada estilizado aki
 
-p.colaboradores {
-    margin: 0px 30px;
-}
+}*/
 
 /*estilo texto em geral termina aki*/
-
-/* div.bloco-texto{         se eu ativar essa div mesmo sem estilizacao da prblema nao sei pq
-    
-} */
 
 body {
     margin: 0;
     font-family: "Oswald", sans-serif;
     background-color: rgb(88, 53, 42);
 }
-
-section#corpo {
-    display: block;
-    width: 60%;
-    float: left;
-    border-right: 1px solid #606060;
-}
-
 
 /* tabela comeca aki */
 table#tabela {
@@ -190,18 +172,27 @@ footer#rodape {
 
 footer#rodape p {
     text-align: center;
+    margin-top: 0px;
 }
 
+hr {
+    margin-top: 100px;
+}
 p.rodape {
     background-color: rgb(88, 53, 42);
     box-shadow: none;
-    border: none
+    border: none;
 }
 
 /*Tirei o sublinhado do link, e coloquei uma corzinha*/
-#rodape a{
+#rodape a {
     text-decoration: none;
     color: #84d627;
+}
+
+#rodape a.colaborador {
+    color: black;
+    text-decoration: underline;
 }
 
 /* rodape termina aki */
@@ -220,7 +211,7 @@ p.rodape {
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
-    background-color: #333333;
+    background-color: #636363;
     /*Deixando o contato e o form alinhado*/
     display: flex;
     /*Tamanho horizoltal do container*/
@@ -294,7 +285,7 @@ label {
     /*Tamanho vertical*/
     height: 30px;
     /*distancia das minhas labels*/
-    margin-top: 20px;
+    margin-top: 13px;
     /*Disply para as labels ficarem na vertical*/
     display: flex;
     /*Tamanho da fonte*/
