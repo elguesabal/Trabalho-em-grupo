@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contato</title>
+    <script src="../JavaScript/form.js"></script>
+    <link rel="shortcut icon" href="../imagens/marrom.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1 class="logo">Cocoa <div class="spell">spell</div>
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html"><img id="inicio" />Início</a>
+                </li>
+                <li>
+                    <a href="produtos.html"><img id="produtos" />Produtos</a>
+                </li>
+                <li>
+                    <a href="quem-somos-nos.html"><img id="sobreAEmpresa" />Sobre a empresa</a>
+                </li>
+                <li>
+                    <a href="fale-conosco.html"><img id="contato" />contato</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- <aside class="autenticacao"> 
+        <a href="#login">Login</a>
+        <a class="registrar">Registrar</a>
+    </aside> -->
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Container, onde ficara meus itens-->
+    <div class="containerForm">
+
+
+        <!--box para imagens e texto-->
+        <div class="contato">
+            <h1>Contato</h1>
+
+            <strong><a href=+5521981464062> Clique aqui para ligar para (<u>21)98146-4062</u></a></strong>
+
+
+            <h2>Endereço</h2>
+
+            <!--Endereço-->
+            <strong>
+                <address id="endereço">
+                    Cidade: Rio de janeiro <br>
+                    Rua: talalala <br>
+                    Bairro: ixi por ai <br>
+                    Cep: 379738749873924
+                </address>
+            </strong>
+
+
+            <!--Imagem que peguei no undraw-->
+            <img src="../imagens/moça comendo2.png" alt="">
+
+        </div>
+
+
+
+
+        <!--Box para o formulário-->
+        <div class="form">
+
+            <h1>Formulário de contato</h1>
+
+            <form action="#">
+
+                <div>
+
+                    <label for="nome"> <strong>Nome</strong></label>
+                    <input type="text" id="nome" placeholder="Insira seu nome" required>
+                    <!--Area onde vai ser inserido o nome do usuario-->
+
+                </div>
+
+                <label for="sobrenome"> <strong>Sobrenome</strong></label>
+                <input type="text" id="sobrenome" placeholder="Insira seu sobrenome" required>
+                <!--Area onde vai ser inserido o sobrenome do usuario-->
+
+                <div>
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="text" id="email" placeholder="Insira seu E-mail" required>
+                    <!--Area onde vai ser inserido o email do usuario-->
+                </div>
+
+                <div>
+                    <label for="mensagem"><strong>Mensagem</strong></label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"
+                        placeholder="Conte-nos seu feedback"></textarea>
+                    <!--Espaço para o usúario deixar sua mensagem-->
+                </div>
+
+                <div>
+                    <!--Botão para enviar os dados-->
+                    <!--onclick com a função validar, para quando apertar o botão do form o js ativar-->
+                    <button type="button" class="botao" onclick="validar()">Enviar</button>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <script src="../JavaScript/form.js"></script>
+
+
+
+
+
+
+
+<footer id="rodape">
+    <hr>
+    <p class="rodape">Copyright &copy; 2022 - by Cocoa Spell - <a href="colaboradores.html" class="colaborador">Colaboladores</a>
+    <br>
+    <a href="http://facebook.com" target="_blank">Facebook</a> | <a href="http://twitter.com" target="_blank">Twitter</a> | <a href="http://instagram.com" target="_blank">Instagram</a></p>
+</footer>
+
+
+
+</body>
+
+</html>
