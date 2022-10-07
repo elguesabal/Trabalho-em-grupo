@@ -103,7 +103,7 @@ div.bloco {                 /*bloco referente a pagina "quem-somos-nos.html"*/
     box-shadow: 10px 1px 5px 4px #84d627;
     text-align: justify;
     color: white;
-    margin: 5% 20% 10% 20%;
+    margin: 5% 20% 7% 20%;
     text-indent: 20px;
 }
 
@@ -117,8 +117,8 @@ h1 {
 
 h2.colaborador {
     color: #84d627;
-    font-size: 15pt;
-    margin: 0% 0px 0% 20%;
+    font-size: 20pt;
+    margin: 0% 0px 4% 10%;
 }
 
 h3.colaboradores {
@@ -420,7 +420,7 @@ button:hover {
 }
 .manual-btn:not(:last-child)
 {
-      margin-right: 40px;
+    margin-right: 40px;
 }
 .manual-btn:hover
 {
