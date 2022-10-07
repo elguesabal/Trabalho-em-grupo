@@ -172,7 +172,7 @@ footer#rodape {
 
 footer#rodape p {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 hr {
@@ -184,15 +184,13 @@ p.rodape {
     border: none;
 }
 
-/*Tirei o sublinhado do link, e coloquei uma corzinha*/
-#rodape a {
-    text-decoration: none;
-    color: #84d627;
+img.redesocial {
+    width: 3%;
+    margin: 1% 1% 0% 0%;
 }
 
 #rodape a.colaborador {
     color: black;
-    text-decoration: underline;
 }
 
 /* rodape termina aki */
@@ -364,6 +362,129 @@ button:hover {
 /*Aqui termina o Formulário*/
 
 
+/* aki comeca o banner */
+
+.container
+{
+   margin  : 0;
+   padding : 0;
+   width   :  100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.slider
+{
+   
+    margin: 0 auto;
+    width   :  100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slides
+{
+   width   :  100%;
+ height: 400px;
+ display: flex;
+}
+.slides input
+{
+   display: none; 
+}
+
+.slide
+{
+   width: 25%;
+   position: relative;
+}
+.slide img
+{
+   width: 1100px;
+}
+.manual-nav
+{
+   position: absolute;
+   width   :  100%;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+.manual-btn
+{
+   border: 2px solid white;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+.manual-btn:not(:last-child)
+{
+      margin-right: 40px;
+}
+.manual-btn:hover
+{
+   background-color: white;
+}
+#radio1:checked ~ .first
+{
+   margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+   margin-left: -25%;
+}
+#radio3:checked ~ .first
+{
+   margin-left: -50%;
+}
+
+.nav-auto div
+{
+ border: 2px solid blue;
+ padding: 5px;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: 1s;
+} 
+.nav-auto
+{
+   position: absolute;
+   width   :  100%;
+   margin-top: 360px;
+   display: flex;
+   justify-content: center;
+}
+
+.nav-auto div:not(:last-child)
+{
+      margin-right: 40px;
+}
+#radio1:checked ~ .nav-auto .auto-btn1
+{
+   background-color: white;
+}
+#radio2:checked ~ .nav-auto .auto-btn2
+{
+   background-color: white;
+}
+#radio3:checked ~ .nav-auto .auto-btn3
+{
+   background-color: white;
+}
+
+/* aki termina o banner */
+
+
+
+
+
+
+/*<script src="JavaScript/quem-somos-nos.js"></script>
+
+<li onclick="gota('imagens/chocolate2.png')">                   aki e um codigo q eu to guardando pra caso queira usar
+<a href="index.html"><img id="inicio"/>Início</a>
+</li> */
 
 
 
