@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <title>Cocoa Spell</title>
-    <script src="JavaScript/quem-somos-nos.js"></script>
-    <!-- <link rel="shortcut icon" href="imagens/marrom.ico" type="image/x-icon"> -->
+    <script src="JavaScript/slide.js"></script>
+    <link rel="shortcut icon" href="imagens/marrom.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -13,17 +13,17 @@
     <h1 class="logo">Cocoa <div class="spell">spell</div></h1>
     <nav class="menu">
         <ul>
-            <li onclick="gota('imagens/chocolate2.png')">
-                <a href="index.html"><img id="inicio"/>Início</a>
+            <li>
+                <a href="index.html">Início</a>
             </li>
             <li>
-                <a href="paginas/produtos.html"><img id="produtos"/>Produtos</a>
+                <a href="paginas/produtos.html">Produtos</a>
             </li>
             <li>
-                <a href="paginas/quem-somos-nos.html"><img id="sobreAEmpresa"/>Sobre a empresa</a>
+                <a href="paginas/quem-somos-nos.html">Sobre a empresa</a>
             </li>
             <li>
-                <a href="paginas/fale-conosco.html"><img id="contato"/>contato</a>
+                <a href="paginas/fale-conosco.html">contato</a>
             </li>
         </ul>
     </nav>
@@ -34,11 +34,59 @@
 </header>
 
 
+<section>
+
+
+    <div class="container">
+        <div class="slider">
+           <div class="slides">
+              <!--radio buttons-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <!--radio buttons-->
+               <!--Imagens-->
+               <div class=" slide first">
+                   <img src="imagens/img1.jpg" alt="">
+               </div>
+               <div class="slide">
+                   <img src="imagens/img2.jpg" alt="">
+               </div>
+               <div class="slide">
+                   <img src="imagens/img3.jpg" alt="">
+               </div>
+              <!-- Fim Imagens-->
+   
+              <!--Navegation auto-->
+              <div class="nav-auto">
+                   <div class="auto-btn1"></div>
+                   <div class="auto-btn2"></div>
+                   <div class="auto-btn3"></div>
+              </div>
+              <!--Fim Navegation auto-->
+           </div>
+           <div class="manual-nav">
+               <label for="radio1" class="manual-btn"></label>
+               <label for="radio2" class="manual-btn"></label>
+               <label for="radio3" class="manual-btn"></label>
+           </div>
+        </div>
+      </div>
+
+
+</section>
+
+
 <footer id="rodape">
     <hr>
+    
     <p class="rodape">Copyright &copy; 2022 - by Cocoa Spell - <a href="paginas/colaboradores.html" class="colaborador">Colaboladores</a>
     <br>
-    <a href="http://facebook.com" target="_blank">Facebook</a> | <a href="http://twitter.com" target="_blank">Twitter</a> | <a href="http://instagram.com" target="_blank">Instagram</a></p>
+
+    <a href="http://facebook.com" target="_blank"><img class="redesocial" src="imagens/facebook.png" alt="Ícone do Facebook"></a>
+    <a href="http://twitter.com" target="_blank"><img class="redesocial" src="imagens/twitter.png" alt="Ícone do Twitter"></a>
+    <a href="http://instagram.com" target="_blank"><img class="redesocial" src="imagens/instagram.png" alt="ìcone de Instagram"></a> 
+    <a href="http://youtube.com" target="_blank"><img class="redesocial" src="imagens/youtube.png" alt="Ícone do YouTube"></a></p>
 </footer>
 
 
