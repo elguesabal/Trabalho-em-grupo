@@ -10,8 +10,10 @@
 
 h1.logo {
     color: white;
-    display: inline-block;
+    display: inline-flex;
     margin: 20px 50px;
+    width: 200px;
+    height: 50px;
 }
 
 .spell {
@@ -474,6 +476,39 @@ button:hover {
 }
 
 /* aki termina o banner */
+
+/* aki começa o card */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 15px solid rgb(201, 15, 201);
+    background-color: rgb(126, 70, 18);
+    overflow: auto;
+   
+}
+
+.flex-container>div {
+    background-color: #946ad8be;
+    width: 300px;
+    margin: 15px;
+    padding: 3px;
+    text-align: center;
+    line-height: auto;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+.Bordas {
+    border-radius: 25px;
+}
+
+#grad1 {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+}
+/* aki termina o card */
 
 
 
