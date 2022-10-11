@@ -99,7 +99,8 @@ img#contato {
 
 /*ate termina o cabeçalho*/
 
-div.bloco {                 /*bloco referente a pagina "quem-somos-nos.html"*/
+div.bloco {
+    /*bloco referente a pagina "quem-somos-nos.html"*/
     background-color: #4d2411;
     padding: 10px;
     border: 5px solid #160803;
@@ -170,7 +171,7 @@ table#tabela td.cd {
 /* rodape comeca aki */
 footer#rodape {
     clear: both;
-   /*border-top: 1px solid #606060; achei visualmente mais bonito sem essa borda */ 
+    /*border-top: 1px solid #606060; achei visualmente mais bonito sem essa borda */
 }
 
 footer#rodape p {
@@ -181,6 +182,7 @@ footer#rodape p {
 hr {
     margin-top: 100px;
 }
+
 p.rodape {
     background-color: rgb(88, 53, 42);
     box-shadow: none;
@@ -207,14 +209,15 @@ img.redesocial {
 
 /*Centralização do meu formulário*/
 .containerForm {
+    /*Deixando o contato e o flex por padrao em row*/
+    display: flex;
     /*Distancia lateral*/
     margin-left: 100px;
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
     background-color: #636363;
-    /*Deixando o contato e o form alinhado*/
-    display: flex;
+
     /*Tamanho horizoltal do container*/
     width: 1200px;
     /*Tamanho vertical*/
@@ -237,7 +240,7 @@ img.redesocial {
     width: 600px;
 }
 
-/*Tamanho do meu box direito*/
+/*Tamanho do meu box direita*/
 .form {
     /*Distancia do topo do conteiner*/
     margin-top: 10px;
@@ -247,38 +250,39 @@ img.redesocial {
     width: 600px;
 }
 
-/*Tamanho do h1*/
+/*Tamanho e cor do h1*/
 .form h1 {
+    color: #84d627;
     margin-left: 1px;
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 /*Tamanho e distanciamento do h1*/
-.contato h1{
+.contato h1 {
+    color: #84d627;
     margin-left: 10px;
     font-size: 35px;
     margin-bottom: 10px;
 }
 
 /*Tamanho e distanciamento do h2*/
-.contato h2{
+.contato h2 {
+    color: #84d627;
     margin-left: 10px;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 /*Tamanho da fonte do endereço*/
-#endereço{
-    
-    font-size: 20px;
+#endereço {
+    font-size: 22px;
 }
 
 /*Tamanho do link para contato*/
-.contato a{
-    font-size: 20px;
+.contato a {
+    font-size: 22px;
 }
-
-
 
 
 /*Estilização da label*/
@@ -286,7 +290,7 @@ label {
     /*Tamanho vertical*/
     height: 30px;
     /*distancia das minhas labels*/
-    margin-top: 13px;
+    margin-top: 20px;
     /*Disply para as labels ficarem na vertical*/
     display: flex;
     /*Tamanho da fonte*/
@@ -365,21 +369,24 @@ button:hover {
 /*Aqui termina o Formulário*/
 
 
-/* aki comeca o banner */
 
-.container
-{
-   margin  : 0;
-   padding : 0;
-   width   :  100%;
-   height  : 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+
+
+/* aqui comeca o banner */
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.slider
-{
+
+.slider {
     border: 5px solid black;
     border-radius: 25px;
     margin: 0 auto;
@@ -387,59 +394,56 @@ button:hover {
     height: 400px;
     overflow: hidden;
 }
-.slides
-{
- width: 400%;
- height: 400px;
- display: flex;
-}
-.slides input
-{
-   display: none; 
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
 }
 
-.slide
-{
-   width: 25%;
-   position: relative;
-}
-.slide img
-{
-   width: 800px;
+.slides input {
+    display: none;
 }
 
-.manual-btn:not(:last-child)
-{
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 }
-.manual-btn:hover
-{
-   background-color: white;
-}
-#radio1:checked ~ .first
-{
-   margin-left: 0;
-}
-#radio2:checked ~ .first
-{
-   margin-left: -25%;
-}
-#radio3:checked ~ .first
-{
-   margin-left: -50%;
+
+.manual-btn:hover {
+    background-color: white;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1
-{
-   background-color: white;
+#radio1:checked~.first {
+    margin-left: 0;
 }
-#radio2:checked ~ .nav-auto .auto-btn2
-{
-   background-color: white;
+
+#radio2:checked~.first {
+    margin-left: -25%;
 }
-#radio3:checked ~ .nav-auto .auto-btn3
-{
-   background-color: white;
+
+#radio3:checked~.first {
+    margin-left: -50%;
+}
+
+#radio1:checked~.nav-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked~.nav-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: white;
 }
 
 /* aki termina o banner */
@@ -453,7 +457,7 @@ button:hover {
     border: 15px solid rgb(201, 15, 201);
     background-color: rgb(126, 70, 18);
     overflow: auto;
-   
+
 }
 
 .flex-container>div {
@@ -472,9 +476,11 @@ button:hover {
 }
 
 #grad1 {
-    background-color: red; /* For browsers that do not support gradients */
+    background-color: red;
+    /* For browsers that do not support gradients */
     background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
 }
+
 /* aki termina o card */
 
 
@@ -487,6 +493,3 @@ button:hover {
 <li onclick="gota('imagens/chocolate2.png')">                   aki e um codigo q eu to guardando pra caso queira usar
 <a href="index.html"><img id="inicio"/>Início</a>
 </li> */
-
-
-
