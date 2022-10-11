@@ -1,5 +1,6 @@
 /*aqui comeca o cabcalho*/
 .cabecalho {
+    z-index: 100;
     background-color: #333;
     border-bottom: solid 5px #84d627;
     height: 80px;
@@ -207,7 +208,7 @@ img.redesocial {
 /*Centralização do meu formulário*/
 .containerForm {
     /*Distancia lateral*/
-    margin-left: 10%;
+    margin-left: 100px;
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
@@ -379,6 +380,8 @@ button:hover {
 }
 .slider
 {
+    border: 5px solid black;
+    border-radius: 25px;
     margin: 0 auto;
     width: 800px;
     height: 400px;
@@ -404,22 +407,7 @@ button:hover {
 {
    width: 800px;
 }
-.manual-nav
-{
-   position: absolute;
-   width: 800px;
-   margin-top: -40px;
-   display: flex;
-   justify-content: center;
-}
-.manual-btn
-{
-   border: 2px solid white;
-   padding: 5px;
-   border-radius: 10px;
-   cursor: pointer;
-   transition: 1s;
-}
+
 .manual-btn:not(:last-child)
 {
     margin-right: 40px;
@@ -441,27 +429,6 @@ button:hover {
    margin-left: -50%;
 }
 
-.nav-auto div
-{
- border: 2px solid blue;
- padding: 5px;
- border-radius: 10px;
- cursor: pointer;
- transition: 1s;
-} 
-.nav-auto
-{
-   position: absolute;
-   width: 800px;
-   margin-top: 360px;
-   display: flex;
-   justify-content: center;
-}
-
-.nav-auto div:not(:last-child)
-{
-      margin-right: 40px;
-}
 #radio1:checked ~ .nav-auto .auto-btn1
 {
    background-color: white;
@@ -523,4 +490,3 @@ button:hover {
 
 
 
-/* #ffa600 cor do pornhub pra mudar a cor do cabecalho caso meu gurpo aceite*/
