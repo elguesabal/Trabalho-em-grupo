@@ -227,18 +227,18 @@ img.redesocial {
 
 /*Centralização do meu formulário*/
 .containerForm {
+    /*Deixando o contato e o form em row*/
+    display: flex;
     /*Distancia lateral*/
-    margin-left: 100px;
+    margin-left: 85px;
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
     background-color: #636363;
-    /*Deixando o contato e o form alinhado*/
-    display: flex;
     /*Tamanho horizoltal do container*/
     width: 1200px;
     /*Tamanho vertical*/
-    height: 550px;
+    height: 560px;
     /*arredondando a borda*/
     border-radius: 70px;
     /*Fonte*/
@@ -262,7 +262,7 @@ img.redesocial {
     /*Distancia do topo do conteiner*/
     margin-top: 10px;
     /*Distancia lateral*/
-    margin-left: 12%;
+    margin-left: 18%;
     /*Largura da box*/
     width: 600px;
 }
@@ -273,32 +273,22 @@ img.redesocial {
     font-size: 35px;
 }
 
-/*Tamanho e distanciamento do h1*/
-.contato h1{
+/*Tamanho e distanciamento do h1 e h2*/
+.contato h1, h2{
+    margin: 20px;
+    color:#84d627;
     margin-left: 10px;
-    font-size: 35px;
-    margin-bottom: 10px;
+    font-size: 32px;
 }
 
-/*Tamanho e distanciamento do h2*/
-.contato h2{
-    margin-left: 10px;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
 
-/*Tamanho da fonte do endereço*/
-#endereço{
-    
-    font-size: 20px;
-}
 
 /*Tamanho do link para contato*/
 .contato a{
-    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 19.2px;
 }
-
-
 
 
 /*Estilização da label*/
@@ -309,8 +299,9 @@ label {
     margin-top: 13px;
     /*Disply para as labels ficarem na vertical*/
     display: flex;
+    flex-direction: column;
     /*Tamanho da fonte*/
-    font-size: 17px;
+    font-size: 19px;
 }
 
 
@@ -325,7 +316,7 @@ textarea {
     border-left: none;
     /*Tamanho*/
     width: 380px;
-    padding: 12px;
+    padding: 10px;
 }
 
 /*Cor do placeholder*/
@@ -358,13 +349,6 @@ button {
 }
 
 
-/*Tirando sublinhado do link do contato*/
-.contato a {
-    text-decoration: none;
-    color: black;
-}
-
-
 button:hover {
     background-color: rgb(12, 12, 12);
 }
@@ -372,15 +356,13 @@ button:hover {
 
 /* Tamanho e localização da imagem*/
 .contato img {
-    position: static;
-    margin-left: 150px;
+    position: relative;
+    bottom: 11%;
+    margin-left: 47%;
     height: 300px;
     width: 410px;
 }
 
-.contato address {
-    font-size: 18px;
-}
 
 /*Aqui termina o Formulário*/
 
