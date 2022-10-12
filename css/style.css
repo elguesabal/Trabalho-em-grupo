@@ -673,20 +673,16 @@ img#i {
 /* as gotas dos cards termina aki */
 
 /* Adicionando interecao de compra e retirada do produto */
-.buttons {
-    position: flex;
-    padding: -20px;
-    margin: 10px;
-    width: fit-content;
-    }
     
     .botao{
-        left: 10px;
         width: 40px;
         position: relative;
     }
 
     .carrinho{
+        font-size: 16px;
+        text-align: center;
+        left: 40px;
         border-style: dashed;
         background-color: #00FF47;
         height: 1px;
