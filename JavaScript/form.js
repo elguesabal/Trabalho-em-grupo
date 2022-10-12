@@ -8,7 +8,7 @@ mensagem = document.getElementById("mensagem")
 
 /*Caso o botão seja pressionado quando algum input esteja vazio, vai aparecer um alerta avisando*/
 
-/*Função validar*/
+// função validar que está no onclick
 function validar() {
 
     if (nome.value == '') {
@@ -24,9 +24,8 @@ function validar() {
     }
 
     if (mensagem.value != '') {
-        alert("Mensagem enviada")
+        alert("Mensagem enviada com sucesso!")
     }
-
 
 }
 
