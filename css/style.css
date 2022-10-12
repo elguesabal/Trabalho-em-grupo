@@ -229,24 +229,24 @@ img.redesocial {
 
 /*Centralização do meu formulário*/
 .containerForm {
+    /*Deixando o contato e o form em row*/
+    display: flex;
     /*Distancia lateral*/
-    margin-left: 100px;
+    margin-left: 85px;
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
     background-color: #636363;
-    /*Deixando o contato e o form alinhado*/
-    display: flex;
     /*Tamanho horizoltal do container*/
     width: 1200px;
     /*Tamanho vertical*/
-    height: 550px;
+    height: 560px;
     /*arredondando a borda*/
     border-radius: 70px;
     /*Fonte*/
     font-family: 'Noto Sans Mono', monospace;
     /*Sombra lateral braba*/
-    box-shadow: 6px 6px 6px black;
+    box-shadow: 8px 8px 10px black;
 }
 
 /*Tamanho do meu box esquerdo*/
@@ -264,43 +264,35 @@ img.redesocial {
     /*Distancia do topo do conteiner*/
     margin-top: 10px;
     /*Distancia lateral*/
-    margin-left: 12%;
+    margin-left: 18%;
     /*Largura da box*/
     width: 600px;
 }
 
 /*Tamanho do h1*/
 .form h1 {
+    color:#84d627;
     margin-left: 1px;
     font-size: 35px;
 }
 
-/*Tamanho e distanciamento do h1*/
-.contato h1{
+/*Estilização do h1 e h2*/
+.contato h1,h2 {
+    margin: 20px;
+    color: #84d627;
     margin-left: 10px;
-    font-size: 35px;
-    margin-bottom: 10px;
+    font-size: 32px;
 }
 
-/*Tamanho e distanciamento do h2*/
-.contato h2{
-    margin-left: 10px;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-/*Tamanho da fonte do endereço*/
-#endereço{
-    
-    font-size: 20px;
-}
 
 /*Tamanho do link para contato*/
-.contato a{
-    font-size: 20px;
+.contato a {
+    /* tirando o sublinhado do link */
+    text-decoration: none;
+    color: black;
+    /* se colocar maior que 19.2 o número desce kk  */
+    font-size: 19.2px;
 }
-
-
 
 
 /*Estilização da label*/
@@ -308,11 +300,12 @@ label {
     /*Tamanho vertical*/
     height: 30px;
     /*distancia das minhas labels*/
-    margin-top: 13px;
-    /*Disply para as labels ficarem na vertical*/
+    margin-top: 15px;
+    /*Display para as labels ficarem na vertical*/
     display: flex;
+    flex-direction: column;
     /*Tamanho da fonte*/
-    font-size: 17px;
+    font-size: 19px;
 }
 
 
@@ -327,7 +320,9 @@ textarea {
     border-left: none;
     /*Tamanho*/
     width: 380px;
-    padding: 12px;
+    padding: 10px;
+    /* Arredondando as bordas */
+    border-radius: 7px;
 }
 
 /*Cor do placeholder*/
@@ -335,7 +330,7 @@ input::placeholder {
     /*Tamanho do placeholder*/
     font-size: 15px;
     /*Cor*/
-    color: rgba(245, 245, 245, 0.500);
+    color: rgba(245, 245, 245, 0.600);
 }
 
 /*Cor do placeholder*/
@@ -343,11 +338,11 @@ textarea::placeholder {
     /*Tamanho do placeholder*/
     font-size: 15px;
     /*Cor*/
-    color: rgba(245, 245, 245, 0.500);
+    color: rgba(245, 245, 245, 0.700);
 }
 
 /*Cor e tamanho do botão*/
-button {
+.botaoForm{
     /*Cor da fonte*/
     color: #84d627;
     /*Cor de fundo*/
@@ -356,33 +351,30 @@ button {
     margin-top: 10px;
     /*Tamanho*/
     height: 30px;
-    width: 60px;
-}
-
-
-/*Tirando sublinhado do link do contato*/
-.contato a {
-    text-decoration: none;
-    color: black;
+    width: 80px;
+    /* Arredondando as bordas */
+    border-radius: 7px;
 }
 
 
 button:hover {
-    background-color: rgb(12, 12, 12);
+    /* Efeito de quando passar o mouse por cima */
+    background-color: rgb(31, 30, 30);
+    cursor: pointer;
 }
 
 
 /* Tamanho e localização da imagem*/
 .contato img {
-    position: static;
-    margin-left: 150px;
+    /* Posição */
+    position: relative;
+    bottom: 11%;
+    margin-left: 45%;
+    /* Tamanho */
     height: 300px;
-    width: 410px;
+    width: 400px;
 }
 
-.contato address {
-    font-size: 18px;
-}
 
 /*Aqui termina o Formulário*/
 
