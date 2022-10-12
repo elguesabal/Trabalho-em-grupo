@@ -54,8 +54,6 @@ h1.logo {
     margin: 3px;
 }
 
-
-
 .menu a:hover {
     background-color: #84d627;
     transition: background-color 1s;
@@ -606,48 +604,79 @@ background-size: 200px 200px;}
     /* background-color: #ffffff;} */
 }
 
-/* #colabimg {
-    float: left;
-    margin: 5% 0% 5% 5%;                    verificar se ta util
-    width: 40%;
-    height: 40%;
-} */
+/* as gotas dos cards comeca aki */
+img#a {
+    margin-left: -150px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
 
+img#b {
+    margin-left: -120px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#c {
+    margin-left: -150px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#d {
+    margin-left: -230px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#e {
+    margin-left: -220px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#f {
+    margin-left: -190px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#g {
+    margin-left: -130px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#h {
+    margin-left: -210px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+
+img#i {
+    margin-left: -200px;
+    margin-top: 0px;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+}
+/* as gotas dos cards termina aki */
 
 /* aki termina o card */
 
-
-
-
-
-
-/*<script src="JavaScript/quem-somos-nos.js"></script>                   aki e um codigo q eu to guardando pra caso queira usar
-
-<li onclick="gota('imagens/chocolate2.png')">
-<a href="index.html"><img id="inicio"/>Início</a>
-</li> */
-
-
-/* img#inicio {
-    margin-left: -7px;
-    margin-top: 5px;
-    height: 80%;
-}
-
-img#produtos {
-    margin-left: -7px;
-    margin-top: 5px;
-    height: 80%;
-}
-
-img#sobreAEmpresa {
-    margin-left: -7px;
-    margin-top: 5px;
-    height: 80%;
-}
-
-img#contato {
-    margin-left: -7px;
-    margin-top: 5px;
-    height: 80%;
-} */
