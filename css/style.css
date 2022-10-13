@@ -232,7 +232,7 @@ img.redesocial {
     /*Deixando o contato e o form em row*/
     display: flex;
     /*Distancia lateral*/
-    margin-left: 85px;
+    margin-left: 10%;
     /*Distancia do topo*/
     margin-top: 40px;
     /*Cor de fundo*/
@@ -359,7 +359,7 @@ textarea::placeholder {
 
 button:hover {
     /* Efeito de quando passar o mouse por cima */
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(48, 47, 47);
     cursor: pointer;
 }
 
@@ -679,16 +679,38 @@ img#i {
         position: relative;
     }
 
+    .botao:hover{
+        background-color: #7a4b28;
+        cursor: pointer;
+    }
+
+    .botaoComprar{
+        border-radius: 5px;
+        height: 40px;
+        position: relative;
+        left: 10px;
+        bottom: 2px;
+        background-color: transparent;
+        border-top: none;
+        border-left: none;
+    }
+
+    .botaoComprar:hover{
+        background-color: #7a4b28;
+        cursor: pointer;
+    
+    }
+
     .carrinho{
         font-size: 16px;
         text-align: center;
         left: 40px;
-        border-style: dashed;
-        background-color: #00FF47;
+        border-top: 1px  1px 1px 1px solid black;
         height: 1px;
         width: 20px;
         margin: 1px;
     }
+
 
 /* aki termina o card */
 
