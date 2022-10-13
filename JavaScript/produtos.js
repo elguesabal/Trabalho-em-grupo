@@ -24,3 +24,11 @@ function gota7 (foto)
 
     function gota9 (foto)
     {document.getElementById("i").src = foto;}
+
+
+    // funcção comprar
+
+    function comprarProduto()
+    {
+        alert("Compra efetuada")
+    }
