@@ -571,14 +571,13 @@ background-size: 200px 200px;}
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: 15px solid rgb(201, 15, 201);
-    background-color: rgb(126, 70, 18);
+    border: 1px solid #84d627;
     overflow: auto;
    
 }
 
 .flex-container>div {
-    background-color: #946ad8be;
+    background-color: rgba(130, 105, 116, 0.658);
     width: 300px;
     margin: 15px;
     padding: 3px;
@@ -586,6 +585,9 @@ background-size: 200px 200px;}
     line-height: auto;
     font-size: 30px;
     border-radius: 25px;
+    box-shadow: 16px 15px 8px #6A410D;
+    font-family: 'Lobster Two', cursive;
+    border: 1px solid #84d627;
 }
 
 .Bordas {
@@ -593,9 +595,8 @@ background-size: 200px 200px;}
 }
 
 #grad1 {
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
-    /* background-image: radial-gradient(circle, rgb(46, 190, 82), rgb(218, 182, 19), rgb(181, 190, 24),); */
+    background-color: #6a4121;
+    background-image: linear-gradient(to top, #6a4121, #84d627, #84d627, #6a4121)
 }
 
 .zoom:hover {
@@ -646,4 +647,3 @@ background-size: 200px 200px;}
 
 
 /* aki termina o card */
-
