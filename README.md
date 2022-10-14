@@ -25,7 +25,8 @@ HTML, CSS, JavaScript
 <hr>
 
 <h1>🖼CocoaSpell</h1>
-<img>![pagina-inicial](https://user-images.githubusercontent.com/113626409/195932999-42e61c28-1c9b-4a96-b045-4ed2f1608fe4.png)
+![pagina-inicial](https://user-images.githubusercontent.com/113626409/195933408-e309fab5-ee1f-471e-b5dc-b35f1958bc67.png)
+
 
 
 
