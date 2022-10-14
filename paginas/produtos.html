@@ -34,7 +34,7 @@
     <div class="flex-container Bordas" id="grad1">
     <div class="doces"><img class="zoom" src="../imagens/BomBom.png" alt="BomBom de Chocolate" 
                 width="200px" height="144px">
-                <p>Bom Bom
+                <p>BomBom
                     <hr>
                     <del>R$ 4,98</del> <br>
                     Por R$ 3,89</p>
@@ -72,6 +72,19 @@
 
                     <!-- !-- botão de compra --> 
                     <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
+        </div>
+        <div class="doces"><img class="zoom" src="../IMAGENS/Caixa.png" alt="Caixa de Bombom" 
+            width="200px" height="144px">
+            <p>Caixa de Bombom
+                <hr>
+                <del>R$ 15,99</del> <br>
+                Por R$ 12,90</p>
+                <input class="botao"type="button" onclick="decrementValue(`gota8-input`)" value="-" />
+                <input class="carrinho" type="text" name="quantity" value="1" maxlength="2" max="100" size="1" id="gota8-input" />
+                <input class="botao" type="button" onclick="incrementValue(`gota8-input`)" value="+" />
+
+                <!-- !-- botão de compra --> 
+                <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
         </div>
         <div class="doces"><img class="zoom" src="../IMAGENS/Bolo1.png" alt="Bolo Com Amendoim" 
                 width="200px" height="144px">
@@ -113,32 +126,6 @@
                     <!-- !-- botão de compra --> 
                     <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
         </div>
-        <div class="doces"><img class="zoom" src="../IMAGENS/Muffim.png" alt="Muffin" 
-                width="200px" height="144px">
-                <p>Muffim
-                    <hr>
-                    <del>R$ 4,99</del> <br>
-                    Por R$ 3,90</p>
-                    <input class="botao"type="button" onclick="decrementValue(`gota7-input`)" value="-" />
-                    <input class="carrinho" type="text" name="quantity" value="1" maxlength="2" max="100" size="1" id="gota7-input" />
-                    <input class="botao" type="button" onclick="incrementValue(`gota7-input`)" value="+" />
-
-                    <!-- !-- botão de compra --> 
-                    <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
-        </div>
-        <div class="doces"><img class="zoom" src="../IMAGENS/Caixa.png" alt="Caixa de Bombom" 
-                width="200px" height="144px">
-                <p>Caixa de Bombom
-                    <hr>
-                    <del>R$ 15,99</del> <br>
-                    Por R$ 12,90</p>
-                    <input class="botao"type="button" onclick="decrementValue(`gota8-input`)" value="-" />
-                    <input class="carrinho" type="text" name="quantity" value="1" maxlength="2" max="100" size="1" id="gota8-input" />
-                    <input class="botao" type="button" onclick="incrementValue(`gota8-input`)" value="+" />
-
-                    <!-- !-- botão de compra --> 
-                    <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
-        </div>
         <div class="doces"><img class="zoom" src="../IMAGENS/Pedaço.png" alt="Pedaço de Bolo" 
             width="200px" height="144px">
                 <p>Pedaço De Bolo
@@ -151,7 +138,20 @@
 
                     <!-- !-- botão de compra -->
                     <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
-    </div>
+        </div>
+        <!-- <div class="doces"><img class="zoom" src="../IMAGENS/Muffim.png" alt="Muffin" 
+            width="200px" height="144px">
+            <p>Muffim
+                <hr>
+                <del>R$ 4,99</del> <br>
+                Por R$ 3,90</p>
+                <input class="botao"type="button" onclick="decrementValue(`gota7-input`)" value="-" />
+                <input class="carrinho" type="text" name="quantity" value="1" maxlength="2" max="100" size="1" id="gota7-input" />
+                <input class="botao" type="button" onclick="incrementValue(`gota7-input`)" value="+" /> -->
+
+                <!-- !-- botão de compra --> 
+                <!-- <button class="botaoComprar" onclick="comprarProduto()"><strong>Comprar</strong></button>
+    </div> -->
 
     </div>
 </main>
