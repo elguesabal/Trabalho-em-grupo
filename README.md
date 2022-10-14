@@ -1,4 +1,3 @@
-![pagina-inicial](https://user-images.githubusercontent.com/113626409/195932999-42e61c28-1c9b-4a96-b045-4ed2f1608fe4.png)
 # Trabalho-em-grupo
 
 <h1>📍Projeto Microempreendedor</h1>
@@ -26,7 +25,7 @@ HTML, CSS, JavaScript
 <hr>
 
 <h1>🖼CocoaSpell</h1>
-![imagem](https://user-images.githubusercontent.com/113558275/195931246-96b65b97-42a0-43f6-b0c2-a8d567bb82e7.jpg)
+![pagina-inicial](https://user-images.githubusercontent.com/113626409/195932999-42e61c28-1c9b-4a96-b045-4ed2f1608fe4.png)
 
 
 
