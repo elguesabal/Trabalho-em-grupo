@@ -1,3 +1,4 @@
+![pagina-inicial](https://user-images.githubusercontent.com/113626409/195932999-42e61c28-1c9b-4a96-b045-4ed2f1608fe4.png)
 # Trabalho-em-grupo
 
 <h1>📍Projeto Microempreendedor</h1>
