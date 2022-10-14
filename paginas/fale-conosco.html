@@ -38,90 +38,89 @@
 
 
 
+    <div class="containerCentralizar">
 
 
-    <!--Container, onde ficara meus itens-->
-    <div class="containerForm">
+        <!--Container, onde ficara meus itens-->
+        <div class="containerForm">
 
 
-        <!--box para imagens e texto-->
-        <div class="contato">
-            <h1>Contato</h1>
+            <!--box para imagens e texto-->
+            <div class="contato">
+                <h1>Contato</h1>
 
-            <strong><a href=>Entre em contato pelo número: (<u>21)98749-4365.</u></a></strong>
-
-
-            <h2>Endereço</h2>
-
-            <address id="endereço">
-                <a href="https://goo.gl/maps/zYPeyqtDuv7t9Ltb8" target="_blank">
-                    <strong>
-                        <p>Clique aqui para conhecer nossa loja!</p>
-
-                        Praça Floriano <br>
-                        s/n - Centro <br>
-                        Rio de Janeiro - RJ <br>
-                        20031-050</strong></a>
-                
-            </address>
+                <strong><a href=>Entre em contato pelo número: (<u>21)98749-4365.</u></a></strong>
 
 
-            <!--Imagem que peguei no undraw-->
-            <img src="../imagens/moça comendo2.png" alt="">
+                <h2>Endereço</h2>
+
+                <address id="endereço">
+                    <a href="https://goo.gl/maps/zYPeyqtDuv7t9Ltb8" target="_blank">
+                        <strong>
+                            <p>Clique aqui para conhecer nossa loja!</p>
+
+                            Praça Floriano <br>
+                            s/n - Centro <br>
+                            Rio de Janeiro - RJ <br>
+                            20031-050
+                        </strong></a>
+
+                </address>
+
+
+                <!--Imagem que peguei no undraw-->
+                <img src="../imagens/moça comendo2.png" alt="">
+
+            </div>
+
+
+
+
+            <!--Box para o formulário-->
+            <div class="form">
+
+                <h1>Formulário de contato</h1>
+
+                <form action="#">
+
+                    <div>
+
+                        <label for="nome"> <strong>Nome</strong></label>
+                        <input type="text" id="nome" placeholder="Insira seu nome" required>
+                        <!--Area onde vai ser inserido o nome do usuario-->
+
+                    </div>
+
+                    <label for="sobrenome"> <strong>Sobrenome</strong></label>
+                    <input type="text" id="sobrenome" placeholder="Insira seu sobrenome" required>
+                    <!--Area onde vai ser inserido o sobrenome do usuario-->
+
+                    <div>
+                        <label for="email"><strong>E-mail</strong></label>
+                        <input type="text" id="email" placeholder="Insira seu E-mail" required>
+                        <!--Area onde vai ser inserido o email do usuario-->
+                    </div>
+
+                    <div>
+                        <label for="mensagem"><strong>Mensagem</strong></label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"
+                            placeholder="Conte-nos seu feedback"></textarea>
+                        <!--Espaço para o usúario deixar sua mensagem-->
+                    </div>
+
+                    <div>
+                        <!--Botão para enviar os dados-->
+                        <!--onclick com a função validar, para quando apertar o botão do form o js ativar-->
+                        <button type="button" class="botaoForm" onclick="validar()">Enviar</button>
+                    </div>
+                </form>
+
+
+            </div>
 
         </div>
-
-
-
-
-        <!--Box para o formulário-->
-        <div class="form">
-
-            <h1>Formulário de contato</h1>
-
-            <form action="#">
-
-                <div>
-
-                    <label for="nome"> <strong>Nome</strong></label>
-                    <input type="text" id="nome" placeholder="Insira seu nome" required>
-                    <!--Area onde vai ser inserido o nome do usuario-->
-
-                </div>
-
-                <label for="sobrenome"> <strong>Sobrenome</strong></label>
-                <input type="text" id="sobrenome" placeholder="Insira seu sobrenome" required>
-                <!--Area onde vai ser inserido o sobrenome do usuario-->
-
-                <div>
-                    <label for="email"><strong>E-mail</strong></label>
-                    <input type="text" id="email" placeholder="Insira seu E-mail" required>
-                    <!--Area onde vai ser inserido o email do usuario-->
-                </div>
-
-                <div>
-                    <label for="mensagem"><strong>Mensagem</strong></label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"
-                        placeholder="Conte-nos seu feedback"></textarea>
-                    <!--Espaço para o usúario deixar sua mensagem-->
-                </div>
-
-                <div>
-                    <!--Botão para enviar os dados-->
-                    <!--onclick com a função validar, para quando apertar o botão do form o js ativar-->
-                    <button type="button" class="botaoForm" onclick="validar()">Enviar</button>
-                </div>
-            </form>
-
-
-        </div>
-
     </div>
-
     <script src="../JavaScript/form.js"></script>
-
-
-
 
 
 
