@@ -494,7 +494,7 @@ line-height: 330px;
 padding: 5px;}
 
 ul#doces li:hover
-{-webkit-transform: scale(1.5);}
+{-webkit-transform: scale(1.05);}
 
 ul#doces li:hover span
 {opacity: 1;}
