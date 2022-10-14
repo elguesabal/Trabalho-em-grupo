@@ -497,60 +497,60 @@ ul#doces li:hover span
 {display: flex;}
 
 ul#doces li#foto01
-{background: url('../SUGESTAO/img01.jfif') no-repeat;
+{background: url('../imagens/BomBom.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto01:hover
 {background-position: 0px 0px;
 background-size: 200px 200px;}
 
 ul#doces li#foto02
-{background: url('../SUGESTAO/img02.jfif') no-repeat;
+{background: url('../imagens/Bolo1.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto02:hover
 {background-position: 0px 0px;
 background-size: 200px 200px;}
 
 ul#doces li#foto03
-{background: url('../SUGESTAO/img03.jfif') no-repeat;
+{background: url('../imagens/Pedaço.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto03:hover
 {background-position: 0px 0px;
 background-size: 200px 200px;}
 
 ul#doces li#foto04
-{background: url('../SUGESTAO/img04.jfif') no-repeat;
+{background: url('../imagens/brownnie.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto04:hover
 {background-position: 0px 0px;
 background-size: 200px 200px;}
 
 ul#doces li#foto05
-{background: url('../SUGESTAO/img05.jfif') no-repeat;
+{background: url('../imagens/Barra.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto05:hover
 {background-position: 0px 0px;
 background-size: 200px 200px;}
 
 ul#doces li#foto06
-{background: url('../SUGESTAO/img06.jfif') no-repeat;
+{background: url('../imagens/Caixa.png') no-repeat;
 background-position: 50% 50%;
 background-size: 400px 400px;
-background-color: #ffffff;}
+background-color: #6a4121;}
 
 ul#doces li#foto06:hover
 {background-position: 0px 0px;
@@ -589,6 +589,7 @@ background-size: 200px 200px;}
 #grad1 {
     background-color: red; /* For browsers that do not support gradients */
     background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+    /* background-image: radial-gradient(circle, rgb(46, 190, 82), rgb(218, 182, 19), rgb(181, 190, 24),); */
 }
 
 .zoom:hover {
