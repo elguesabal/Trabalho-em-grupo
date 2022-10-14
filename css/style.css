@@ -59,6 +59,7 @@ h1.logo {
 .menu a:hover {
     background-color: #84d627;
     transition: background-color 1s;
+    border-radius: 10px;
 }
 
 /* aki termina os botoes do cabecalho */
@@ -227,20 +228,21 @@ img.redesocial {
 /*Aqui começa o Formulário*/
 
 
-/*Centralização do meu formulário*/
+/* Centralização final do formulário */
+.containerCentralizar{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilização do containerform*/
 .containerForm {
     /*Deixando o contato e o form em row*/
     display: flex;
-    /*Distancia lateral*/
-    margin-left: 10%;
-    /*Distancia do topo*/
-    margin-top: 40px;
     /*Cor de fundo*/
     background-color: #636363;
-    /*Tamanho horizoltal do container*/
-    width: 1200px;
-    /*Tamanho vertical*/
-    height: 560px;
     /*arredondando a borda*/
     border-radius: 70px;
     /*Fonte*/
@@ -257,6 +259,8 @@ img.redesocial {
     margin-left: 2.5%;
     /*Largura da box*/
     width: 600px;
+    /*Tamanho vertical*/
+    height: 550px;
 }
 
 /*Tamanho do meu box direito*/
@@ -267,6 +271,8 @@ img.redesocial {
     margin-left: 18%;
     /*Largura da box*/
     width: 600px;
+    /*Tamanho vertical*/
+    height: 550px;
 }
 
 /*Tamanho do h1*/
