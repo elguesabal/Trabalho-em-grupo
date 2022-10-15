@@ -64,10 +64,11 @@ h1.logo {
 
 /* aki termina os botoes do cabecalho */
 
-/*ate termina o cabeçalho*/
+/*aki termina o cabeçalho*/
 
 
-div.bloco {                 /*bloco referente a pagina "quem-somos-nos.html"*/
+div.bloco {
+    /*bloco referente a pagina "quem-somos-nos.html"*/
     background-color: #4d2411;
     padding: 10px;
     border: 5px solid #160803;
@@ -98,11 +99,8 @@ h3.colaboradores {
     margin: 3% auto 50px 66%;
 }
 
-/*p {            nao tem nada estilizado aki
-
-}*/
-
 /*estilo texto em geral termina aki*/
+
 
 body {
     margin: 0;
@@ -115,28 +113,25 @@ body {
 
 /* aki começa as imagens dos colaboradores, o titulo cocogoat*/
 .apresentacao {
-    position:relative;
-    
+    position: relative;
+
 }
 
 .imagemapresentacao {
-    
     height: 0px;
     margin-left: 70px;
 }
 
 .ColaboradoresCocoGoat {
-    
     text-align: center;
-    }
+}
 
 .borderCocogoat {
-    
     margin-left: 62px;
     width: 370px;
     height: 90px;
-    border-style:double ;
-    border-color: rgb(226, 151, 203) ;
+    border-style: double;
+    border-color: rgb(226, 151, 203);
     border-radius: 30px;
 
 }
@@ -144,24 +139,25 @@ body {
 .ColaboradoresCocoGoat a {
     margin: 0%;
     color: rgb(255, 255, 255);
-} 
+}
 
 .ColaboradoresCocoGoat h1 {
-    
     margin: 2%;
     margin-right: 10%;
     font-style: normal;
     font-weight: 1;
     font-size: 68px;
     font-family: 'Meow Script', 'Montserrat', sans-serif;
-       color: #00FF47;
+    color: #00FF47;
 }
-.descricaoColaborador{
+
+.descricaoColaborador {
     margin: 2px 2px 2px 2px;
     font-size: 25px;
     color: white;
     font-family: 'Meow Script', 'Montserrat', sans-serif;
 }
+
 /* terminou sa bagaca */
 
 
@@ -190,10 +186,11 @@ table#tabela td.cd {
 
 /* tabela termina aki */
 
+
 /* rodape comeca aki */
 footer#rodape {
     clear: both;
-   /*border-top: 1px solid #606060; achei visualmente mais bonito sem essa borda */ 
+    /*border-top: 1px solid #606060; achei visualmente mais bonito sem essa borda */
 }
 
 footer#rodape p {
@@ -204,6 +201,7 @@ footer#rodape p {
 hr {
     margin-top: 100px;
 }
+
 p.rodape {
     background-color: rgb(88, 53, 42);
     box-shadow: none;
@@ -223,13 +221,11 @@ img.redesocial {
 
 
 
-
-
 /*Aqui começa o Formulário*/
 
 
 /* Centralização final do formulário */
-.containerCentralizar{
+.containerCentralizar {
     width: 100%;
     margin-top: 40px;
     display: flex;
@@ -277,13 +273,14 @@ img.redesocial {
 
 /*Tamanho do h1*/
 .form h1 {
-    color:#84d627;
+    color: #84d627;
     margin-left: 1px;
     font-size: 35px;
 }
 
 /*Estilização do h1 e h2*/
-.contato h1,h2 {
+.contato h1,
+h2 {
     margin: 20px;
     color: #84d627;
     margin-left: 10px;
@@ -348,7 +345,7 @@ textarea::placeholder {
 }
 
 /*Cor e tamanho do botão*/
-.botaoForm{
+.botaoForm {
     /*Cor da fonte*/
     color: #84d627;
     /*Cor de fundo*/
@@ -381,25 +378,22 @@ button:hover {
     width: 400px;
 }
 
-
 /*Aqui termina o Formulário*/
 
 
 /* aki comeca o banner */
 
-.container
-{
-   margin: 5% 0% 0% 2%;
-   padding: 0% 0% 0% 0%;
-   width: 40%;
-   height: 40%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+.container {
+    margin: 5% 0% 0% 2%;
+    padding: 0% 0% 0% 0%;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.slider
-{
+
+.slider {
     border: 5px solid black;
     border-radius: 25px;
     margin: 0 auto;
@@ -407,160 +401,176 @@ button:hover {
     height: 400px;
     overflow: hidden;
 }
-.slides
-{
- width: 400%;
- height: 400px;
- display: flex;
-}
-.slides input
-{
-   display: none; 
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
 }
 
-.slide
-{
-   width: 25%;
-   position: relative;
-}
-.slide img
-{
-   width: 800px;
+.slides input {
+    display: none;
 }
 
-.manual-btn:not(:last-child)
-{
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 }
-.manual-btn:hover
-{
-   background-color: white;
-}
-#radio1:checked ~ .first
-{
-   margin-left: 0;
-}
-#radio2:checked ~ .first
-{
-   margin-left: -25%;
-}
-#radio3:checked ~ .first
-{
-   margin-left: -50%;
+
+.manual-btn:hover {
+    background-color: white;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1
-{
-   background-color: white;
+#radio1:checked~.first {
+    margin-left: 0;
 }
-#radio2:checked ~ .nav-auto .auto-btn2
-{
-   background-color: white;
+
+#radio2:checked~.first {
+    margin-left: -25%;
 }
-#radio3:checked ~ .nav-auto .auto-btn3
-{
-   background-color: white;
+
+#radio3:checked~.first {
+    margin-left: -50%;
 }
+
+#radio1:checked~.nav-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked~.nav-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: white;
+}
+
 /* aki termina o banner */
 
 
 /* aki comeca os blocos do lado do banner na pagina inicial */
 
 
-ul#doces
-{width: 700px;
-margin: 0, auto;
-padding: 2.5% 0% 0% 4%;
-overflow: hidden;
-list-style: none;}
+ul#doces {
+    width: 700px;
+    margin: 0, auto;
+    padding: 2.5% 0% 0% 4%;
+    overflow: hidden;
+    list-style: none;
+}
 
-ul#doces li
-{float: left;
-width: 200px;
-height: 200px;
-margin: 10px;
-border: 5px solid #ffffff;
-background-color: #ffffff;
-box-shadow: 2px 2px 5px #84d627;
--webkit-transition: all 0.3s ease-in;}
+ul#doces li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #84d627;
+    -webkit-transition: all 0.3s ease-in;
+}
 
-ul#doces li span
-{opacity: 0;
-color: #ffffff;
-text-shadow: 1px 1px 1px #84d627;
-background-color: rgba(0,0,0,0.3);
-font-size: 9pt;
-line-height: 330px;
-padding: 5px;}
+ul#doces li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #84d627;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 330px;
+    padding: 5px;
+}
 
-ul#doces li:hover
-{-webkit-transform: scale(1.05);}
+ul#doces li:hover {
+    -webkit-transform: scale(1.05);
+}
 
-ul#doces li:hover span
-{opacity: 1;}
+ul#doces li:hover span {
+    opacity: 1;
+}
 
-#banner3blocos
-{display: flex;}
+#banner3blocos {
+    display: flex;
+}
 
-ul#doces li#foto01
-{background: url('../imagens/BomBom.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto01 {
+    background: url('../imagens/BomBom.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto01:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
-ul#doces li#foto02
-{background: url('../imagens/Bolo1.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto02 {
+    background: url('../imagens/Bolo1.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto02:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
-ul#doces li#foto03
-{background: url('../imagens/Pedaço.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto03 {
+    background: url('../imagens/Pedaço.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto03:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
-ul#doces li#foto04
-{background: url('../imagens/brownnie.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto04 {
+    background: url('../imagens/brownnie.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto04:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
-ul#doces li#foto05
-{background: url('../imagens/Barra.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto05 {
+    background: url('../imagens/Barra.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto05:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
-ul#doces li#foto06
-{background: url('../imagens/Caixa.png') no-repeat;
-background-position: 50% 50%;
-background-size: 400px 400px;
-background-color: #6a4121;}
+ul#doces li#foto06 {
+    background: url('../imagens/Caixa.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #6a4121;
+}
 
-ul#doces li#foto06:hover
-{background-position: 0px 0px;
-background-size: 200px 200px;}
+ul#doces li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 
 /* aki termina os blocos do lado do banner na pagina inicial */
 
@@ -573,7 +583,7 @@ background-size: 200px 200px;}
     justify-content: center;
     border: 1px solid #84d627;
     overflow: auto;
-   
+
 }
 
 .flex-container>div {
@@ -607,43 +617,43 @@ background-size: 200px 200px;}
 }
 
 /* Adicionando interecao de compra e retirada do produto */
-    
-    .botao{
-        width: 40px;
-        position: relative;
-    }
 
-    .botao:hover{
-        background-color: #7a4b28;
-        cursor: pointer;
-    }
+.botao {
+    width: 40px;
+    position: relative;
+}
 
-    .botaoComprar{
-        border-radius: 5px;
-        height: 40px;
-        position: relative;
-        left: 10px;
-        bottom: 2px;
-        background-color: transparent;
-        border-top: none;
-        border-left: none;
-    }
+.botao:hover {
+    background-color: #7a4b28;
+    cursor: pointer;
+}
 
-    .botaoComprar:hover{
-        background-color: #7a4b28;
-        cursor: pointer;
-    
-    }
+.botaoComprar {
+    border-radius: 5px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+}
 
-    .carrinho{
-        font-size: 16px;
-        text-align: center;
-        left: 40px;
-        border-top: 1px  1px 1px 1px solid black;
-        height: 1px;
-        width: 20px;
-        margin: 1px;
-    }
+.botaoComprar:hover {
+    background-color: #7a4b28;
+    cursor: pointer;
+
+}
+
+.carrinho {
+    font-size: 16px;
+    text-align: center;
+    left: 40px;
+    border-top: 1px 1px 1px 1px solid black;
+    height: 1px;
+    width: 20px;
+    margin: 1px;
+}
 
 
 /* aki termina o card */
