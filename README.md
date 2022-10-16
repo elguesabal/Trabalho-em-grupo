@@ -26,9 +26,7 @@ HTML, CSS, JavaScript
 
 <h1>🖼CocoaSpell</h1>
 
-
-
-
-
-
-
+<img src="https://user-images.githubusercontent.com/113626409/196063732-b8c5ae0a-fe45-495e-8f58-9970ab2c7318.png"/>
+<img src="https://user-images.githubusercontent.com/113626409/196063941-3fcf0072-5d97-4ea5-bd97-a1150dbbf09d.png"/>
+<img src="https://user-images.githubusercontent.com/113626409/196064011-e6db5d2b-85ba-4f55-9341-9a6215c91d0f.png"/>
+<img src="https://user-images.githubusercontent.com/113626409/196064078-d331ba87-f709-400a-a320-7f635ba4d36d.png"/>
